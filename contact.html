@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <h1>JEFFERSON & SONS ENTERPRISE</h1>
@@ -19,7 +21,27 @@
         </nav>
     </header>
     <main>
-        CONTACT US
+        <b>CONTACT US</b> <br>br
+
+        <form>
+            <label for="fullname">FULLNAME</label><br>
+            <input type="text" placeholder="JOHN DOE" required><br>
+            <label for="email">EMAIL</label><br>
+            <input type="email" placeholder="xyz@gmail.com" required><br>
+            <label for="number">PHONE NUMBER</label><br>
+            <input type="tel" placeholder="0000-000-0000" required><br>
+            <label for="gender">GENDER</label><br>
+            <select name="gender" id="">
+                <option value="SELECT A GENDER" disabled selected>SELECT A GENDER</option>
+                <option value="MALE">MALE</option>
+                <option value="FEMALE">FEMALE</option>
+                <option value="NOT TO SAY">PREFER NOT TO SAY</option>
+            </select><br>
+            <Label for="message">MESSAGE</Label><br>
+            <textarea name="message" placeholder="WHY ARE YOU HERE?" cols="30" rows="20"></textarea><br>
+            <button>SUBMIT</button>
+        </form>
     </main>
 </body>
+
 </html>
